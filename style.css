@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 90rem;
+    margin: 0 auto;
+}
+
+.overall {
+    background: red;
+    padding: 10rem 0;
+}
+
+button {
+    position: fixed;
+    bottom: 0.8rem;
+    left: 15.6rem;
+    padding: 5rem;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(16, 4rem);
+    grid-template-rows: repeat(16,4rem);
+}
+
+.box {
+    background-color: aliceblue;
+}
+
+.hover {
+    background-color: black;
+}
